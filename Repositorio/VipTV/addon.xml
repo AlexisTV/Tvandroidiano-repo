@@ -1,19 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
-<addon id="repository.Tvandroidiano" name="[COLOR lime]Mi Repositorio[/COLOR] Repo" version="1.0.1" provider-name="Tvandroidiano Repo">
-    <extension point="xbmc.addon.repository" name="Mi repositorio">
-        <info>https://raw.githubusercontent.com/AlexisTV/Tvandroidiano-repo/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/AlexisTV/Tvandroidiano-repo/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/AlexisTV/master/Repositorio/</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Repositorio Tvandroidiano wizard Viptv</summary>
-        <description></description>
-        <disclaimer></disclaimer>
-        <platform>all</platform>
-    </extension>
-</addon>
-
 <addon id="VipTV" name="[COLOR cyan]VipTV[COLOR magenta]Wizard[/COLOR]" version="5.5" provider-name="[B][I][COLOR magenta]Klepton[/COLOR][/I][/B]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -29,11 +14,10 @@
     <platform>all</platform>
 	<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
   </extension>
-
+  
   <extension point="xbmc.addon.repository" name="Mi repositorio">
         <info>https://raw.githubusercontent.com/AlexisTV/Tvandroidiano-repo/master/Repositorio/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/AlexisTV/Tvandroidiano-repo/master/Repositorio/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/AlexisTV/master/Repositorio/</datadir>
     </extension>
 </addon>
-</addons>
