@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.Tvandroidiano" name="[COLOR lime]Mi Repositorio[/COLOR] Repo" version="1.0.1" provider-name="Tvandroidiano Repo">
-    <extension point="xbmc.addon.repository" name="Mi repositorio">
+<addon id="repository.Tvandroidiano" name="[COLOR lime]Mi Repositorio[/COLOR] Repo" version="1.0.2" provider-name="Tvandroidiano Repo">
+    <extension point="xbmc.addon.repository" name="repositorio tvandridiano">
         <info>https://raw.githubusercontent.com/AlexisTV/Tvandroidiano-repo/master/Repositorio/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/AlexisTV/Tvandroidiano-repo/master/Repositorio/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/AlexisTV/master/Repositorio/</datadir>
