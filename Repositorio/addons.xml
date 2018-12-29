@@ -14,7 +14,7 @@
     </extension>
 </addon>
 
-<addon id="VIPTV ASTRO" name="VIPTV [COLOR crimson]ASTRO[/COLOR]" version="7.0" provider-name="VIPTV">
+<addon id="VIPTV ASTRO" name="VIPTV [COLOR crimson]ASTRO[/COLOR]" version="7.5" provider-name="VIPTV">
   <requires>
     <import addon="xbmc.python" version="7.5"/>
   </requires>
