@@ -14,9 +14,9 @@
     </extension>
 </addon>
 
-<addon id="VIPTV ASTRO" name="VIPTV [COLOR crimson]ASTRO[/COLOR]" version="7.5" provider-name="VIPTV">
+<addon id="VIPTV ASTRO" name="VIPTV [COLOR crimson]ASTRO[/COLOR]" version="v2.7" provider-name="VIPTV">
   <requires>
-    <import addon="xbmc.python" version="7.5"/>
+    <import addon="xbmc.python" version="2.1.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>executable</provides>
@@ -30,9 +30,7 @@
   </extension>
 </addon>
 
-<extension point="xbmc.addon.repository" name="Mi repositorio">
-        <info>https://raw.githubusercontent.com/AlexisTV/repo-viptv-astro/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/AlexisTV/repo-viptv-astro/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/repo-viptv-astro/master/Repositorio/</datadir>
-    </extension>
-</addons>
+<extension point="xbmc.addon.repository" name="repositorio tvandridiano">
+        <info>https://raw.githubusercontent.com/AlexisTV/Tvandroidiano-repo/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/AlexisTV/Tvandroidiano-repo/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/AlexisTV/master/Repositorio/</datadir>
